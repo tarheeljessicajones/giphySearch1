@@ -1,5 +1,4 @@
-<script type="text/javascript">
-   var majors = ["Computer Science", "Communications", "Political Science", "Business Administration", "Engineering", "English", "Psychology","Nursing","Biology","Education"];
+  var majors = ["Computer Science", "Communications", "Political Science", "Business Administration", "Engineering", "English", "Psychology","Nursing","Biology","Education"];
 
       function renderButtons() {
         $("#top").empty();
@@ -70,4 +69,3 @@
     $(document).on("click", ".major", displayMajorInfo);
 
     renderButtons();
-    </script>
